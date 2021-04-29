@@ -1,0 +1,48 @@
+.layout{
+    height:100%;
+    width:100%;
+}
+.card{
+    display: flex;
+    justify-items:left ;
+    background-color:rgb(255, 255, 255);    
+    margin-top: 24px;
+    margin-left: 24px;
+    margin-right: 24px;
+    margin-bottom: 36px;
+    height:112px;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom:12px;
+    padding-left: 12px;
+}
+.name{
+    padding-left: 20px;
+    font-family: sans-serif;
+}
+
+.box2 {
+    transition: 0.3s;
+    border-radius: 0px 0px 5px 5px;
+    color: blue;
+    margin-top: 0px;
+    background-color: white;
+    min-height: 100%;
+    width: 55%;
+    display: flex;
+    float: left;
+    padding: 20px 20px 12px 12px;
+}
+
+.box3 {
+    transition: 0.3s;
+    border-radius: 5px 5px 5px 5px;
+    color: blue;
+    margin-top: 0px;
+    margin-left: 5%;
+    background-color: white;
+    min-height: 10px;
+    width: 35%;
+    padding: 10px 10px 10px 10px;
+    float: right;
+}
